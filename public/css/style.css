@@ -1,26 +1,25 @@
-* {
-  margin: 0 ;
-
-} 
+*{
+  margin: 0%;
+  padding-block-start: 0%;
+}
 
 body {
-  background-color: #772b5e;
+  background-color: #7e8483;
+    
+  
 }
 
 
-/* div.container{
-  
+div.container{
+  display: flex;
+  justify-content: space-evenly;
 
 }
 
-div.container2{
- 
-
-
+div.resultado{
   
-}  */
-
-
+}
+  
 
 .logo {
   
@@ -29,7 +28,6 @@ div.container2{
   align-items: center;
   justify-content: center;
   font: bold calc(1em + 2 * (100vw - 120px) / 100) 'Dancing Script', fantasy;
-  color: #ff0083;
   text-shadow: #000 2px 2px 0.2rem;
 }
 
@@ -37,13 +35,13 @@ div.container2{
 
 .margem {
   padding: 2%;
-  border-radius: 5px;
-  background-color: rgb(177, 28, 140);
+  border-radius: 2px;
+  background-color: rgb(71, 201, 205);
 
 }
 
 .mesmo-tamanho {
-  border-radius: 10px;
+  border-radius: 100px;
 
 }
 
@@ -62,15 +60,13 @@ div.container2{
 
 .borda {
   -webkit-box-shadow: 0 3px 9px black;
-  box-shadow: 0 3px 9px rgb(0, 0, 0);
-  border-radius: 20px;
-  -webkit-transition: border .2s ease-in-out;
-  transition: border .2s ease-in-out;
+  box-shadow: 0 3px 3px rgb(0, 0, 0);
+  border-radius: 20px
 }
 
 .centro {
-  width: 100%;
-  height: 100%;
+  width: 500%;
+  height: 1000%;
 }
 
 
