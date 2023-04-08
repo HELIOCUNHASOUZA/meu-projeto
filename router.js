@@ -9,5 +9,30 @@ router.get("/", (req, res)=> {
 })
 
 
+//definindo rotas para o roteador
+router.post("/", (req, res)=> {
+    // nova rota do tipo post /calculos
+    res.status(201).json(__calculos + "/controllers/resultadosCalculos.js")
+})
+
+
+//tabela
+//mysql com calculo e resultado data/hora 
+
+
+
+
+
+
 //exportando roteador
 module.exports = router
+
+
+
+
+
+
+
+
+// SQL tabela calculos Id calculo data/hora
+// configurar o squelize no node

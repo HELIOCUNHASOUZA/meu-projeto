@@ -1,11 +1,11 @@
 
-
-
 var valorVisor = 0;
 var numeroA;
 var numeroB;
 var operacao;
 var agora = new Date;
+
+
 
 
 function botao(dado) {
@@ -29,6 +29,18 @@ function botao(dado) {
       document.getElementById("historico").textContent = "Boa noite";
     }
 }
+
+// criar uma função enviar calculo
+// captua o calculo e envia para o Backend
+// (funçao Fetch)
+function capturaEnviaCalculo(){
+    const mostraDados = resultado.show("resultado");
+  
+}
+console.log("resultado")
+
+
+
 
 
 function btn_soma(caracter){
@@ -104,4 +116,8 @@ function calcular() {
       document.getElementById('visor').value = total;
       valorVisor = ultimoTotal;
 
+}
+
+module.exports = {
+  capturaEnviaCalculo
 }
